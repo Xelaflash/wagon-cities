@@ -1,7 +1,72 @@
 body {
-  font-family: Helvetica;
+  color: white;
+  background-color: black;
 }
+
+.header {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  text-align: center;
+  h1 {
+    font-size: 75px;
+    margin: 20px auto;
+  }
+}
+
+
 .app {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  .cities {
+    width: 30%;
+    margin-left: 20px;
+  }
+  .cities-items {
+    margin: 0 auto;
+    list-style: none;
+    padding:10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+  }
+  .cities-items:hover {
+    background: white;
+    color:#d23333;
+  }
+  .active-city {
+    height:100%;
+    width: 70%;
+    margin: 0 20px;
+    padding: 10px 15px;
+    transform: scale(0.8);
+    h3 {
+      margin-top: 0;
+    }
+  }
+  .default-text {
+    font-size: 32px;
+    font-family: 'Monoton', cursive;
+    text-align:center;
+    margin: 400px 0;
+  }
+  .city-details {
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    background: white;
+    color:#d23333;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .city-details:hover {
+    transform: scale(0.9);
+    margin: 40px 0;
+    box-shadow: 0 20px 100px #d23333, 0 15px 20px #d23333, 8px 9px 18px #d23333;
+    cursor: grab;
+  }
 }
