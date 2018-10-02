@@ -1,3 +1,9 @@
+# React-Redux exercice for the react tract of le Wagon. 
+Done in Sept 2018
+
+
+
+
 # redux-boilerplate
 
 Simple React + Redux starter with the following config:
