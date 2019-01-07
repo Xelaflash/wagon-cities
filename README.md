@@ -1,3 +1,10 @@
+# React-Redux exercice for the react tract of le Wagon. 
+Done in Sept 2018
+https://xelaflash.github.io/wagon-cities/
+
+
+
+
 # redux-boilerplate
 
 Simple React + Redux starter with the following config:
